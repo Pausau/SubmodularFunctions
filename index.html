@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maximizing Submodular Functions</title>
+<style>
+  body { font-family: Georgia, "Times New Roman", serif; max-width: 42em; margin: 3em auto; padding: 0 1em; line-height: 1.5; color: #222; }
+  h1 { font-size: 1.6em; margin-bottom: 0.2em; }
+  .sub { color: #666; margin-top: 0; }
+  ul { padding-left: 1.2em; }
+  li { margin: 0.5em 0; }
+  a { color: #1a4d8f; }
+</style>
+</head>
+<body>
+<h1>Maximizing Submodular Functions</h1>
+<p class="sub">Paul Sautner, seminar paper, Seminar: Optimization (H. Schichl), University of Vienna, April 2023</p>
+
+<p>The paper treats the maximization of nonnegative monotone submodular set functions under a cardinality
+constraint and under a matroid constraint, in the value-oracle model, and proves the approximation guarantees
+of the standard algorithms: greedy (1&minus;1/e), thresholding, greedy under a matroid (1/2), continuous
+greedy with pipage rounding, and an accelerated continuous greedy.</p>
+
+<ul>
+  <li><a href="MaximizingSubmodularFunctions.pdf">The paper (PDF, 15 pages)</a></li>
+  <li><a href="cardinality_constraint_demo.html">Interactive demo: cardinality constraint</a> &mdash; greedy and thresholding on a sensor-placement instance</li>
+  <li><a href="matroid_constraint_demo.html">Interactive demo: matroid constraint</a></li>
+  <li><a href="https://github.com/Pausau/SubmodularFunctions">Source on GitHub</a></li>
+</ul>
+
+<p>The demos are single HTML files with no dependencies; they run in any modern browser.</p>
+</body>
+</html>
